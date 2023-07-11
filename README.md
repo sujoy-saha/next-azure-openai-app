@@ -1,15 +1,44 @@
+# Build a Next.js application with TypeScript and Azure OpenAI Service
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+It is developed using Typescript. The solution is utilizing Vercel AI SDK for the client components and invoking the Azure OpenAI services.  
+
+Please refere the following resources to understand more details about the different components of this project. 
+
+- [Build a Next.js Application with TypeScript](https://nextjs.org/docs/getting-started/installation)
+- [Vercel AI SDK](https://sdk.vercel.ai/docs/guides/openai)
+- [Get started using GPT-35-Turbo with Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?tabs=command-line&pivots=programming-language-javascript)
+
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/sujoy-saha/next-azure-openai-app.git
+cd next-azure-openai-app
+```
+
+Get all the dependencies:
+
+```bash
+npm install
+```
+
+Set-up configuration:
+
+Create a `.env.local` in the root directory and add the following configuration details.
+
+```bash
+AZURE_OPENAI_ENDPOINT = 'Replace with your Azure OpenAI Endpoint'
+AZURE_OPENAI_KEY = 'Replace with you Azure OpenAI Key'
+AZURE_OPENAI_MODEL = 'Replace with your OpenAI Model'
+```
+
+Run the application:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
