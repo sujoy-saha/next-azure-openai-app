@@ -1,7 +1,6 @@
 # Build a Next.js application with TypeScript and Azure OpenAI Service
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-It is developed using Typescript. The solution is utilizing Vercel AI SDK for the client components and invoking the Azure OpenAI services.  
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and it is developed using Typescript. The solution is utilizing Vercel AI SDK for the client components and invoking the Azure OpenAI services.  
 
 Please refere the following resources to understand more details about the different components of this project. 
 
@@ -54,7 +53,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/).
 
 ## Deploy on Vercel
 
